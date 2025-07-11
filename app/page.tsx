@@ -12,8 +12,8 @@ import Footer from '@/components/Footer';
 import BackgroundCanvas from '@/components/BackgroundCanvas';
 import HeroSection from '@/components/HeroSection';
 import LoadingScreen from '@/components/LoadingScreen';
-import FloatingParticles from '@/components/animations/FloatingParticles';
-import SmoothScroll from '@/components/animations/SmoothScroll';
+import FloatingParticles from '@/components/animations/FloatingParticles'; // This is active
+import SmoothScroll from '@/components/animations/SmoothScroll'; // Re-enabling this
 import { PerformanceMonitor, throttle } from '@/lib/performance';
 
 // Error Boundary Component
